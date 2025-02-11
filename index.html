@@ -3,360 +3,351 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my portfolio</title>
+    <title>Shirisha Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
-    
 </head>
 <body>
-      <nav id="desktop-nav">
+    <nav id="desktop-nav">
         <div class="logo">Salandri shirisha</div>
         <div>
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-      </nav>
-      <nav id="hamburger-nav">
-        <div class="logo">John Doe</div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Salandri shirisha</div>
         <div class="hamburger-menu">
-          <div class="hamburger-icon" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <div class="menu-links">
-            <li><a href="#about" onclick="toggleMenu()">About</a></li>
-            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-          </div>
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
         </div>
-      </nav>
-      <section id="profile">
-        
+    </nav>
+    <section id="profile" style="margin-bottom: 2rem">
         <div class="section__pic-container">
-          
-          <img src="./assets/Profile_picture.jpg" alt="Salandri shirisha profile picture" />
-          
+            <img src="./assets/Profile_picture.png" alt="Profile picture">
         </div>
         <div class="section__text">
-          <p class="section__text__p1">Hello, I'm</p>
-          <h1 class="title">salandri shirisha</h1>
-          <p class="section__text__p2">Frontend Developer</p>
-          <div class="btn-container">
-            <button
-              class="btn btn-color-2"
-              onclick="window.open('./assets/salandri_shirisha_Resume.pdf')"
-            >
-              Download CV
-            </button>
-            <button class="btn btn-color-1" onclick="location.href='./#contact'">
-              Contact Info
-            </button>
-          </div>
-          <div id="socials-container">
-            <a href="https://linkedin.com/in/shirisha-salandri/"  target="_blank">
-              <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" />
-            </a>
-            
-          
-          
-            <a href="https://github.com/salandrishirisha" target="_blank">
-              <img
-                src="./assets/github.png"
-                alt="My Github profile"
-                class="icon"
-              />
-            </a>
-            
-          </div>
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">salandri shirisha</h1>
+            <div class="section__text__p2">Frontend Developer</div>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/shirisha_resume.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <a href="https://www.linkedin.com/in/shirisha-salandri" target="_blank">
+                    <img src="./assets/linkedin.png" alt="LinkedIn" class="icon">
+                </a>
+                <a href="https://github.com/salandrishirisha" target="_blank">
+                    <img src="./assets/github.png" alt="GitHub" class="icon">
+                </a>
+            </div>
         </div>
-      </section>
-      <section id="about">
-        <p class="section__text__p1">Get To Know More</p>
-        <h1 class="title">About Me</h1>
-        <div class="section-container">
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>1.5+ years <br />Associate Software Engineer, Optum</p>
-            </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>Bachelor Of Engineering in Computer Science<br />2018-2022</p>
-            </div>
-          </div>
-          <div class="text-container">
-            <p>
-              Hey there, software engineers and creative spirits!
-              <strong>I’m Shiri</strong>, and you’ve just stumbled upon my little corner of the internet where I geek out about the fascinating world of computer engineering.
-            </p>
-            <br>
-            <p>
-              So, who am I? Well, I'm a software engineer with 1.5+ years of experience.
-              I have a solid background in frontend development and am currently on a journey to master Full Stack Development.
-              My interests range from enhancing user digital experiences to understanding the full cycle of connectivity from frontend to backend. 
-              I'm always eager to explore new technological horizons.
-            </p>
-            <br>
-            <p>
-              My goal is to contribute to projects that make a real difference in people's lives, combining my technical expertise with a genuine desire to enhance user experiences. 
-              
-              <strong><i>Let's build something amazing together!</i></strong>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#about'"> 
+    </section>
+    <section id="about" style="margin-top: 2rem">
+        <p class="get-to-know">Get To Know</p>
+        <h1 class="section-title">About Me</h1>
+        <div class="about-content">
+            <p class="about-intro">
+                Hey there, software engineers and creative spirits! 
+                <span class="highlight-text">I'm Shiri</span>, and you've just stumbled 
+                upon my little corner of the internet where I geek out about the fascinating 
+                world of computer engineering.
             </p>
             
+            <div class="text-container">
+                <p>
+                    So, who am I? Well, I'm a software engineer with 
+                    <span class="keyword-highlight">1.5+ years</span> of experience. 
+                    I have a solid background in 
+                    <span class="keyword-highlight">frontend development</span> 
+                    and am currently on a journey to master 
+                    <span class="keyword-highlight">Full Stack Development</span>. 
+                    My interests range from enhancing user digital experiences to 
+                    understanding the full cycle of connectivity from frontend to backend. 
+                    I'm always eager to explore new technological horizons.
+                </p>
+                <p>
+                    My goal is to contribute to projects that make a 
+                    <span class="keyword-highlight">real difference</span> in people's lives, 
+                    combining my technical expertise with a genuine desire to enhance user experiences.
+                </p>
+            </div>
+            
+            <span class="cta-text">Let's build something amazing together!</span>
+        </div>
+        
+        <div class="about-containers">
+            <div class="details-container">
+                <h3>Experience</h3>
+                <p><span class="keyword-highlight">Frontend Developer,</span>(Freelancing)-Software Giant </p>
+                <p>Software Engineer, <span class="keyword-highlight">United Health Group- Optum</span> [1.5+ years]</p>
+            </div>
+            <div class="details-container">
+                <h3>Education</h3>
+                <p>Bachelor Of Engineering in Computer Science
+                  <span class="keyword-highlight">[2018-2022]</span>
+                 </p>
+                
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JAVA</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+             
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3> MySQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>DBMS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
           </div>
         </div>
       </div>
       <img
-      src="./assets/arrow.png"
-      alt="Arrow icon"
-      class="icon arrow"
-      onclick="location.href='./#experience'"
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
       />
-      </section>
-      <section id="experience">
-        <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Experience</h1>
-        <div class="experience-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <h2 class="experience-sub-title">Frontend Development</h2>
-              <div class="article-container">
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>HTML</h3>
-                    <p>Experienced</p>
-                  </div>
-                </article>
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>CSS</h3>
-                    <p>Experienced</p>
-                  </div>
-                </article>
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>JAVA</h3>
-                    <p>Intermediate</p>
-                  </div>
-                </article>
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>JavaScript</h3>
-                    <p>Basic</p>
-                  </div>
-                </article>
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>TypeScript</h3>
-                    <p>Basic</p>
-                  </div>
-                </article>
-               
-              </div>
-            </div>
-            <div class="details-container">
-              <h2 class="experience-sub-title">Backend Development</h2>
-              <div class="article-container">
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3> MySQL</h3>
-                    <p>Basic</p>
-                  </div>
-                </article>
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>Node JS</h3>
-                    <p>Basic</p>
-                  </div>
-                </article>
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>DBMS</h3>
-                    <p>Intermediate</p>
-                  </div>
-                </article>
-                <article>
-                  <img
-                    src="./assets/checkmark.png"
-                    alt="Experience icon"
-                    class="icon"
-                  />
-                  <div>
-                    <h3>Git</h3>
-                    <p>Intermediate</p>
-                  </div>
-                </article>
-              </div>
-            </div>
-          </div>
-        </div>
-        <img
-          src="./assets/arrow.png"
-          alt="Arrow icon"
-          class="icon arrow"
-          onclick="location.href='./#projects'"
-        />
-      </section>
+
+
+    </section>
+ 
    
-      <section id="projects">
+
+    <section id="projects">
         <p class="section__text__p1">Browse My Recent</p>
         <h1 class="title">Projects</h1>
-        <div class="experience-details-container">
-          <div class="about-containers">
-            <div class="details-container color-container">
-              <div class="article-container">
-                <img
-                  src="./assets/project-1.jpg"
-                  alt="Project 1"
-                  class="project-img"
-                />
-              </div>
-              <h2 class="experience-sub-title project-title">Dactylology Recognition System</h2>
-              <div class="btn-container">
-                <button
-                  class="btn btn-color-2 project-btn"
-                 onclick="window.open('https://www.semanticscholar.org/paper/DACTYLOLOGY-RECOGNITION-SYSTEM-Reddy-D.Vaishnavi/22f874a6179c6b21b66288491a2205155bfab5e3', '_blank')">Research Paper
-                </button>
-                
-                  
-                <button
-                  class="btn btn-color-2 project-btn"
-                 onclick="window.open('https://ijiemr.org/public/uploads/paper/746831652357664.pdf', '_blank')">Code
-                </button>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-img-container">
+                    <img src="./assets/project-1.jpg" alt="Dactylology Recognition System" class="project-img">
+                </div>
+                <h2 class="project-title">Dactylology Recognition System</h2>
+                <div class="btn-container">
+                    <a href="https://www.semanticscholar.org/paper/DACTYLOLOGY-RECOGNITION-SYSTEM-Reddy-D.Vaishnavi/22f874a6179c6b21b66288491a2205155bfab5e3" target="_blank" class="btn project-btn">Research Paper</a>
+                    <a href="https://ijiemr.org/public/uploads/paper/746831652357664.pdf" target="_blank" class="btn project-btn">Code</a>
+                </div>
+            </div>
 
-              </div>
+            <div class="project-card">
+                <div class="project-img-container">
+                    <img src="./assets/project-2.png" alt="Frontend Designing Razorpay" class="project-img">
+                </div>
+                <h2 class="project-title">Frontend Designing- Razorpay</h2>
+                <div class="btn-container">
+                    <a href="https://github.com/salandrishirisha" target="_blank" class="btn project-btn">Github</a>
+                    <a href="https://tailwind-css-razorpay.netlify.app/" target="_blank" class="btn project-btn">Live Demo</a>
+                </div>
             </div>
-            <div class="details-container color-container">
-              <div class="article-container">
-                <img
-                  src="./assets/project-2.png"
-                  alt="Project 2"
-                  class="project-img"
-                />
-              </div>
-              <h2 class="experience-sub-title project-title">Frontend Designing- Razorpay </h2>
-             
-    
-              <div class="btn-container">
-                <button
-                  class="btn btn-color-2 project-btn"
-                
-                  onclick="window.open('https://github.com/salandrishirisha', '_blank')"> Github
-                </button>
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="window.open('https://github.com/salandrishirisha', '_blank')"> 
-                
-                  Live Demo
-                </button>
-              </div>
+
+            <div class="project-card">
+                <div class="project-img-container">
+                    <img src="./assets/project5.jpeg" alt="Parallax Effect" class="project-img">
+                </div>
+                <h2 class="project-title">Parallax Effect-Designing</h2>
+                <div class="btn-container">
+                    <a href="https://github.com/salandrishirisha/Parallax-Effect" target="_blank" class="btn project-btn">Github</a>
+                    <a href="https://parallax-effect.tiiny.site" target="_blank" class="btn project-btn">Live Demo</a>
+                </div>
             </div>
-          </div>
+
+            <div class="project-card">
+                <div class="project-img-container">
+                    <img src="./assets/project4.jpeg" alt="Telugu Medium Kitchen" class="project-img">
+                </div>
+                <h2 class="project-title">Telugu-mediumkitchen app</h2>
+                <div class="btn-container">
+                    <a href="https://github.com/salandrishirisha" target="_blank" class="btn project-btn">Github</a>
+                    <a href="https://telugumediumkitckenapp.netlify.app" target="_blank" class="btn project-btn">Live Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img-container">
+                    <img src="./assets/project3.png" alt="WTF Podcast" class="project-img">
+                </div>
+                <h2 class="project-title">WTF Podcast-summarypage</h2>
+                <div class="btn-container">
+                    <a href="https://github.com/salandrishirisha" target="_blank" class="btn project-btn">Github</a>
+                    <a href="https://wtfpodcastsummary.netlify.app/" target="_blank" class="btn project-btn">Live Demo</a>
+                </div>
+            </div>
         </div>
-        <img
-          src="./assets/arrow.png"
-          alt="Arrow icon"
-          class="icon arrow"
-          onclick="location.href='./#contact'"
-        />
-      </section>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
+    </section>
 
-      <section id="contact">
+
+
+
+
+    <section id="contact">
         <p class="section__text__p1">Get in Touch</p>
         <h1 class="title">Contact Me</h1>
         <div class="contact-info-upper-container">
-          <div class="contact-info-container">
-            <img
-              src="./assets/email.png"
-              alt="Email icon"
-              class="icon contact-icon email-icon"
-            />
-            <p><a href="mailto:salandrishireesha22@gmail.com" target="_blank">salandrishireesha22@gmail.com</a></p>
-          </div>
-          <div class="contact-info-container">
-            <img
-              src="./assets/linkedin.png"
-              alt="LinkedIn icon"
-              class="icon contact-icon"
-            />
-            <p><a href="https://linkedin.com/in/shirisha-salandri/" target="_blank">LinkedIn</a></p>
-
-          </div>
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon"/>
+                <p>
+                    <a href="mailto:salandrishireesha22@gmail.com" class="contact-link">salandrishireesha22@gmail.com</a>
+                </p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon"/>
+                <p>
+                    <a href="https://linkedin.com/in/shirisha-salandri/" target="_blank" class="contact-link">LinkedIn</a>
+                </p>
+            </div>
         </div>
-      </section>
-
-      <footer>
-        <nav>
-          <div class="nav-links-container">
-            <ul class="nav-links">
-              <li><a href="#about">About</a></li>
-              <li><a href="#experience">Experience</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
+    </section>
+    <footer>
+        <nav class="footer-nav">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
         </nav>
-        <p>Copyright &#169; 2024 salandri shirisha. All Rights Reserved.</p>
-      </footer>
-   
-      <script src="index.js"></script>
-  
+        <p class="copyright">Copyright © 2025 salandri shirisha. All Rights Reserved.</p>
+    </footer>
+    <div class="music-container" onclick="toggleMusic()">
+        <img src="https://cdn-icons-png.flaticon.com/512/727/727245.png" class="music-icon" alt="Music Icon">
+        <audio id="audio-player" src="./assets/bindas.mp3"></audio>
+    </div>
+    <script src="Musicplayer.js"></script>
 </body>
 </html>
